@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.calcuWapper {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  margin: auto;
+  color: azure;
+}
+
+#screen > * {
+  text-align: right;
+  min-height: 3rem;
+  padding-right: 10px;
+  font-size: 1.5rem;
+  word-wrap: break-word;
+}
+#previousDisplay {
+  font-size: 0.9rem;
+  color: gray;
+}
+#calPads {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(5,1fr); */
+}
+button {
+  min-height: 80px;
+}
+.colspan-2 {
+  grid-column: span 2;
+}
+
+.rowspan-2 {
+  grid-row: span 2;
+}
